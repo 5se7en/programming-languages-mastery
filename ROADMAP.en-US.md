@@ -12,6 +12,7 @@
 - The book is organized around **concepts**, with **8 Parts and 59 chapters (numbered 01–59)**. The default is to proceed in numeric order.
 - Every chapter is labeled with the **core question** it answers — read with that "why" in mind, then see how the six languages each respond.
 - Each chapter is a self-contained unit and can be consulted on its own; concepts do have dependencies, see [Chapter Dependencies](#-chapter-dependencies).
+- In the tables below, **a chapter whose title is a link is already written** — click through to read it. Chapters without links are still on the way; see [Milestones and Versions](#-milestones-and-versions) for progress.
 - For the full project structure, chapter template, and writing guidelines, see [README](./README.en-US.md) and [CONTRIBUTING](./CONTRIBUTING.md).
 
 ---
@@ -65,13 +66,13 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 01 | Programming History | Why did languages evolve from machine code all the way to high-level languages? |
-| 02 | What is a Program | How does a piece of code become actions the CPU executes? |
-| 03 | Compiler | How is source code translated into machine code? |
-| 04 | Interpreter | Running without compiling — at what cost? |
-| 05 | Virtual Machine | Why do the JVM / CLR exist, and how is "write once, run anywhere" achieved? |
-| 06 | Runtime | While a program runs, what does the language do for you behind the scenes? |
-| 07 | Type System | What exactly do types constrain? What do static and dynamic typing each buy you? |
+| 01 | [Programming History](./docs/Part1-Programming-Fundamentals/01-programming-history.en-US.md) | Why did languages evolve from machine code all the way to high-level languages? |
+| 02 | [What is a Program](./docs/Part1-Programming-Fundamentals/02-what-is-a-program.en-US.md) | How does a piece of code become actions the CPU executes? |
+| 03 | [Compiler](./docs/Part1-Programming-Fundamentals/03-compiler.en-US.md) | How is source code translated into machine code? |
+| 04 | [Interpreter](./docs/Part1-Programming-Fundamentals/04-interpreter.en-US.md) | Running without compiling — at what cost? |
+| 05 | [Virtual Machine](./docs/Part1-Programming-Fundamentals/05-virtual-machine.en-US.md) | Why do the JVM / CLR exist, and how is "write once, run anywhere" achieved? |
+| 06 | [Runtime](./docs/Part1-Programming-Fundamentals/06-runtime.en-US.md) | While a program runs, what does the language do for you behind the scenes? |
+| 07 | [Type System](./docs/Part1-Programming-Fundamentals/07-type-system.en-US.md) | What exactly do types constrain? What do static and dynamic typing each buy you? |
 
 ### Part 2 · Language Basics (08–15)
 
@@ -80,7 +81,7 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 08 | Variables | Why do we need variables instead of using memory addresses directly? |
+| 08 | [Variables](./docs/Part2-Language-Basics/08-variables.en-US.md) | Why do we need variables instead of using memory addresses directly? |
 | 09 | Data Types | Why distinguish types? What do they look like in memory? |
 | 10 | Operators | How are expressions evaluated, and what lies behind operators? |
 | 11 | Control Flow | How do if / loops map to low-level jump instructions? |
