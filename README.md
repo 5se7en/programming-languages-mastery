@@ -8,7 +8,7 @@
 
 ---
 
-`状态：v0.1 · 基础建设` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
+`状态：v0.3 · Part 1–2 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
 
 > **学习概念 · 对比语言 · 理解原理 · 构建体系**
 
@@ -431,7 +431,7 @@ Programming-Languages-Mastery/
 | Part | 主题 | 状态 |
 |------|------|:----:|
 | Part 1 | 编程思想 | ✅ 已完成 |
-| Part 2 | 语言基础 | ✍️ 编写中 |
+| Part 2 | 语言基础 | ✅ 已完成 |
 | Part 3 | 数据结构 | ⏳ 规划中 |
 | Part 4 | 面向对象 | ⏳ 规划中 |
 | Part 5 | 运行时 | ⏳ 规划中 |

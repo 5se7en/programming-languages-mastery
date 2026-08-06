@@ -8,7 +8,7 @@
 
 ---
 
-`Status: v0.1 · Foundation` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
+`Status: v0.3 · Parts 1–2 complete` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
 
 > **Learn Concepts · Compare Languages · Understand Principles · Build Systems**
 
@@ -429,7 +429,7 @@ The book is maintained as an open-source project with transparent progress:
 | Part | Theme | Status |
 |------|-------|:------:|
 | Part 1 | Programming Fundamentals | ✅ Done |
-| Part 2 | Language Basics | ✍️ In Progress |
+| Part 2 | Language Basics | ✅ Done |
 | Part 3 | Data Structures | ⏳ Planned |
 | Part 4 | Object-Oriented Programming | ⏳ Planned |
 | Part 5 | Runtime | ⏳ Planned |

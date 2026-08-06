@@ -141,6 +141,14 @@ score = "A+"
 print(type(score).__name__)   # str — the type rides on the value
 ```
 
+> ⚠️ **Why does Python need neither a type nor a declaration keyword?**
+>
+> - **No type**: in Python, the type belongs to the **value**, not to the variable. The object `92` already knows it is an integer; a variable is just a label stuck onto it — and labels don't need types.
+> - **No declaration keyword**: in Python, **assignment itself creates the variable**. There is no "declare first, then assign" pair of steps, so no keyword is needed to tell them apart.
+> - **No constants**: Python provides no constant mechanism; ALL-CAPS naming simply expresses the convention "please don't modify this."
+>
+> One common misconception worth clearing up: **Python is strongly typed**, not weakly typed. "Dynamic" means the type is settled at runtime; "strong" means no implicit conversions — `"1" + 1` raises an error in Python. These are two different things (see Chapter 07).
+
 **Assignment semantics**: in Python everything is an object, and a variable is always a **name binding**. What you observe depends on whether the object is **mutable**:
 
 ```python

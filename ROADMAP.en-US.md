@@ -82,13 +82,13 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
 | 08 | [Variables](./docs/Part2-Language-Basics/08-variables.en-US.md) | Why do we need variables instead of using memory addresses directly? |
-| 09 | Data Types | Why distinguish types? What do they look like in memory? |
-| 10 | Operators | How are expressions evaluated, and what lies behind operators? |
-| 11 | Control Flow | How do if / loops map to low-level jump instructions? |
-| 12 | Functions | Why do we need functions? How does the call stack work? |
-| 13 | Scope | Where are variables visible? Why do closures exist? |
-| 14 | Modules | How is code split and reused? |
-| 15 | Packages | How are dependencies organized and distributed? |
+| 09 | [Data Types](./docs/Part2-Language-Basics/09-data-types.en-US.md) | Why distinguish types? What do they look like in memory? |
+| 10 | [Operators](./docs/Part2-Language-Basics/10-operators.en-US.md) | How are expressions evaluated, and what lies behind operators? |
+| 11 | [Control Flow](./docs/Part2-Language-Basics/11-control-flow.en-US.md) | How do if / loops map to low-level jump instructions? |
+| 12 | [Functions](./docs/Part2-Language-Basics/12-functions.en-US.md) | Why do we need functions? How does the call stack work? |
+| 13 | [Scope](./docs/Part2-Language-Basics/13-scope.en-US.md) | Where are variables visible? Why do closures exist? |
+| 14 | [Modules](./docs/Part2-Language-Basics/14-modules.en-US.md) | How is code split and reused? |
+| 15 | [Packages](./docs/Part2-Language-Basics/15-packages.en-US.md) | How are dependencies organized and distributed? |
 
 ### Part 3 · Data Structures (16–22)
 
@@ -219,7 +219,7 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 |---------|---------|:------:|
 | v0.1 | Project infrastructure (README / ROADMAP / guidelines / template) | ✅ Done |
 | v0.2 | Part 1 Programming Fundamentals | ✅ Done |
-| v0.3 | Part 2 Language Basics | ✍️ In Progress |
+| v0.3 | Part 2 Language Basics | ✅ Done |
 | v0.4 | Part 3 Data Structures | ⏳ |
 | v0.5 | Part 4 Object-Oriented Programming | ⏳ |
 | v0.6 | Part 5 Runtime | ⏳ |

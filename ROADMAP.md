@@ -82,13 +82,13 @@ flowchart LR
 | 章 | 标题 | 它回答的核心问题 |
 |:--:|------|------------------|
 | 08 | [变量](./docs/Part2-Language-Basics/08-variables.md) | 为什么需要变量，而不是直接用内存地址？ |
-| 09 | 数据类型 | 为什么要区分类型？它们在内存里长什么样？ |
-| 10 | 运算符 | 表达式如何被求值，运算符背后是什么？ |
-| 11 | 流程控制 | if / 循环如何映射到底层的跳转指令？ |
-| 12 | 函数 | 为什么需要函数？调用栈如何工作？ |
-| 13 | 作用域 | 变量在哪里可见？闭包为什么存在？ |
-| 14 | 模块 | 代码如何拆分与复用？ |
-| 15 | 包 | 依赖如何组织与分发？ |
+| 09 | [数据类型](./docs/Part2-Language-Basics/09-data-types.md) | 为什么要区分类型？它们在内存里长什么样？ |
+| 10 | [运算符](./docs/Part2-Language-Basics/10-operators.md) | 表达式如何被求值，运算符背后是什么？ |
+| 11 | [流程控制](./docs/Part2-Language-Basics/11-control-flow.md) | if / 循环如何映射到底层的跳转指令？ |
+| 12 | [函数](./docs/Part2-Language-Basics/12-functions.md) | 为什么需要函数？调用栈如何工作？ |
+| 13 | [作用域](./docs/Part2-Language-Basics/13-scope.md) | 变量在哪里可见？闭包为什么存在？ |
+| 14 | [模块](./docs/Part2-Language-Basics/14-modules.md) | 代码如何拆分与复用？ |
+| 15 | [包](./docs/Part2-Language-Basics/15-packages.md) | 依赖如何组织与分发？ |
 
 ### Part 3 · 数据结构（16–22）
 
@@ -219,7 +219,7 @@ flowchart LR
 |------|------|:----:|
 | v0.1 | 项目基础设施（README / ROADMAP / 规范 / 模板） | ✅ 已完成 |
 | v0.2 | Part 1 编程思想 | ✅ 已完成 |
-| v0.3 | Part 2 语言基础 | ✍️ 进行中 |
+| v0.3 | Part 2 语言基础 | ✅ 已完成 |
 | v0.4 | Part 3 数据结构 | ⏳ |
 | v0.5 | Part 4 面向对象 | ⏳ |
 | v0.6 | Part 5 运行时 | ⏳ |

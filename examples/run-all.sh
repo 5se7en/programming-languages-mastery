@@ -36,6 +36,15 @@ report() { # report <status> <label> <detail>
   esac
 }
 
+# 选择入口文件：优先 main.* / Main.*，其次与概念同名，最后取第一个
+pick_entry() { # pick_entry <dir> <ext>
+  local dir="$1" ext="$2"
+  local f
+  f=$(find "$dir" -maxdepth 1 \( -name "main.$ext" -o -name "Main.$ext" \) 2>/dev/null | head -1)
+  [ -n "$f" ] && { echo "$f"; return; }
+  find "$dir" -maxdepth 1 -name "*.$ext" 2>/dev/null | sort | head -1
+}
+
 run_one() { # run_one <label> <output-file> <command...>
   local label="$1" out="$2"; shift 2
   if "$@" > "$out" 2>&1; then
@@ -56,7 +65,7 @@ for topic in $topics; do
   echo "═══ 概念：$topic ═══"
 
   # ---- JavaScript ----
-  f=$(find "javascript/$topic" -name '*.js' 2>/dev/null | head -1)
+  f=$(pick_entry "javascript/$topic" js)
   if [ -n "${f:-}" ]; then
     if command -v node >/dev/null 2>&1; then
       run_one "JavaScript" "$TMP/js.out" node "$f"
@@ -64,7 +73,7 @@ for topic in $topics; do
   fi
 
   # ---- Python ----
-  f=$(find "python/$topic" -name '*.py' 2>/dev/null | head -1)
+  f=$(pick_entry "python/$topic" py)
   if [ -n "${f:-}" ]; then
     if command -v python3 >/dev/null 2>&1; then
       run_one "Python" "$TMP/py.out" python3 "$f"
@@ -72,11 +81,11 @@ for topic in $topics; do
   fi
 
   # ---- Java ----
-  f=$(find "java/$topic" -name '*.java' 2>/dev/null | head -1)
+  f=$(pick_entry "java/$topic" java)
   if [ -n "${f:-}" ]; then
     if command -v javac >/dev/null 2>&1 && command -v java >/dev/null 2>&1; then
       cls=$(basename "$f" .java)
-      if javac -d "$TMP/java" "$f" > "$TMP/java.out" 2>&1; then
+      if javac -d "$TMP/java" "java/$topic"/*.java > "$TMP/java.out" 2>&1; then
         run_one "Java" "$TMP/java.out" java -cp "$TMP/java" "$cls"
       else
         report FAIL "Java" "编译失败"; sed 's/^/      | /' "$TMP/java.out" | head -15
@@ -85,10 +94,10 @@ for topic in $topics; do
   fi
 
   # ---- C++ ----
-  f=$(find "cpp/$topic" -name '*.cpp' 2>/dev/null | head -1)
+  f=$(pick_entry "cpp/$topic" cpp)
   if [ -n "${f:-}" ]; then
     if command -v g++ >/dev/null 2>&1; then
-      if g++ -std=c++17 -o "$TMP/cpp.out.bin" "$f" > "$TMP/cpp.out" 2>&1; then
+      if g++ -std=c++17 -I"cpp/$topic" -o "$TMP/cpp.out.bin" "cpp/$topic"/*.cpp > "$TMP/cpp.out" 2>&1; then
         run_one "C++" "$TMP/cpp.out" "$TMP/cpp.out.bin"
       else
         report FAIL "C++" "编译失败"; sed 's/^/      | /' "$TMP/cpp.out" | head -15
@@ -97,7 +106,7 @@ for topic in $topics; do
   fi
 
   # ---- C# ----
-  f=$(find "csharp/$topic" -name '*.cs' 2>/dev/null | head -1)
+  f=$(pick_entry "csharp/$topic" cs)
   if [ -n "${f:-}" ]; then
     if command -v dotnet >/dev/null 2>&1; then
       export DOTNET_CLI_TELEMETRY_OPTOUT=1 DOTNET_NOLOGO=1
@@ -112,7 +121,7 @@ for topic in $topics; do
   fi
 
   # ---- SQL ----
-  f=$(find "sql/$topic" -name '*.sql' 2>/dev/null | head -1)
+  f=$(pick_entry "sql/$topic" sql)
   if [ -n "${f:-}" ]; then
     if command -v sqlite3 >/dev/null 2>&1; then
       if sqlite3 :memory: < "$f" > "$TMP/sql.out" 2>&1; then
