@@ -97,13 +97,13 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 16 | Array | Why is contiguous memory efficient? At what cost? |
-| 17 | List | How is dynamic growth implemented (vector / ArrayList / list)? |
-| 18 | Stack | Why is LIFO everywhere (call stack, expression evaluation)? |
-| 19 | Queue | What problem does FIFO solve? |
-| 20 | Hash | Why can it achieve near O(1) lookup? |
-| 21 | Tree | How to get both hierarchy and ordering? |
-| 22 | Graph | How to express arbitrary relationships and connections? |
+| 16 | [Array](./docs/Part3-Data-Structures/16-array.en-US.md) | Why is contiguous memory efficient? At what cost? |
+| 17 | [List](./docs/Part3-Data-Structures/17-list.en-US.md) | How is dynamic growth implemented (vector / ArrayList / list)? |
+| 18 | [Stack](./docs/Part3-Data-Structures/18-stack.en-US.md) | Why is LIFO everywhere (call stack, expression evaluation)? |
+| 19 | [Queue](./docs/Part3-Data-Structures/19-queue.en-US.md) | What problem does FIFO solve? |
+| 20 | [Hash](./docs/Part3-Data-Structures/20-hash.en-US.md) | Why can it achieve near O(1) lookup? |
+| 21 | [Tree](./docs/Part3-Data-Structures/21-tree.en-US.md) | How to get both hierarchy and ordering? |
+| 22 | [Graph](./docs/Part3-Data-Structures/22-graph.en-US.md) | How to express arbitrary relationships and connections? |
 
 ### Part 4 · Object-Oriented Programming (23–30)
 
@@ -220,8 +220,8 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.1 | Project infrastructure (README / ROADMAP / guidelines / template) | ✅ Done |
 | v0.2 | Part 1 Programming Fundamentals | ✅ Done |
 | v0.3 | Part 2 Language Basics | ✅ Done |
-| v0.4 | Part 3 Data Structures | ⏳ |
-| v0.5 | Part 4 Object-Oriented Programming | ⏳ |
+| v0.4 | Part 3 Data Structures | ✅ Done |
+| v0.5 | Part 4 Object-Oriented Programming | ✍️ In Progress |
 | v0.6 | Part 5 Runtime | ⏳ |
 | v0.7 | Part 6 Concurrency | ⏳ |
 | v0.8 | Part 7 Database | ⏳ |

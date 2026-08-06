@@ -97,13 +97,13 @@ flowchart LR
 
 | 章 | 标题 | 它回答的核心问题 |
 |:--:|------|------------------|
-| 16 | 数组 | 连续内存为何高效？代价是什么？ |
-| 17 | 列表 | 动态扩容如何实现（vector / ArrayList / list）？ |
-| 18 | 栈 | 后进先出为何无处不在（调用栈、表达式求值）？ |
-| 19 | 队列 | 先进先出解决什么问题？ |
-| 20 | 哈希 | 为什么能做到近似 O(1) 查找？ |
-| 21 | 树 | 层级结构与有序性如何兼得？ |
-| 22 | 图 | 如何表达任意关系与连接？ |
+| 16 | [数组](./docs/Part3-Data-Structures/16-array.md) | 连续内存为何高效？代价是什么？ |
+| 17 | [列表](./docs/Part3-Data-Structures/17-list.md) | 动态扩容如何实现（vector / ArrayList / list）？ |
+| 18 | [栈](./docs/Part3-Data-Structures/18-stack.md) | 后进先出为何无处不在（调用栈、表达式求值）？ |
+| 19 | [队列](./docs/Part3-Data-Structures/19-queue.md) | 先进先出解决什么问题？ |
+| 20 | [哈希](./docs/Part3-Data-Structures/20-hash.md) | 为什么能做到近似 O(1) 查找？ |
+| 21 | [树](./docs/Part3-Data-Structures/21-tree.md) | 层级结构与有序性如何兼得？ |
+| 22 | [图](./docs/Part3-Data-Structures/22-graph.md) | 如何表达任意关系与连接？ |
 
 ### Part 4 · 面向对象（23–30）
 
@@ -220,8 +220,8 @@ flowchart LR
 | v0.1 | 项目基础设施（README / ROADMAP / 规范 / 模板） | ✅ 已完成 |
 | v0.2 | Part 1 编程思想 | ✅ 已完成 |
 | v0.3 | Part 2 语言基础 | ✅ 已完成 |
-| v0.4 | Part 3 数据结构 | ⏳ |
-| v0.5 | Part 4 面向对象 | ⏳ |
+| v0.4 | Part 3 数据结构 | ✅ 已完成 |
+| v0.5 | Part 4 面向对象 | ✍️ 进行中 |
 | v0.6 | Part 5 运行时 | ⏳ |
 | v0.7 | Part 6 并发 | ⏳ |
 | v0.8 | Part 7 数据库 | ⏳ |

@@ -8,7 +8,7 @@
 
 ---
 
-`状态：v0.3 · Part 1–2 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
+`状态：v0.4 · Part 1–3 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
 
 > **学习概念 · 对比语言 · 理解原理 · 构建体系**
 
@@ -432,8 +432,8 @@ Programming-Languages-Mastery/
 |------|------|:----:|
 | Part 1 | 编程思想 | ✅ 已完成 |
 | Part 2 | 语言基础 | ✅ 已完成 |
-| Part 3 | 数据结构 | ⏳ 规划中 |
-| Part 4 | 面向对象 | ⏳ 规划中 |
+| Part 3 | 数据结构 | ✅ 已完成 |
+| Part 4 | 面向对象 | ✍️ 编写中 |
 | Part 5 | 运行时 | ⏳ 规划中 |
 | Part 6 | 并发 | ⏳ 规划中 |
 | Part 7 | 数据库 | ⏳ 规划中 |
@@ -448,11 +448,13 @@ Programming-Languages-Mastery/
 本书采用语义化版本（Semantic Versioning），每个版本都有清晰的里程碑：
 
 ```text
-v0.1  项目基础设施（README / ROADMAP / 规范 / 模板）   ← 当前
+v0.1  项目基础设施（README / ROADMAP / 规范 / 模板）
   ↓
 v0.2  Part 1 编程思想
   ↓
 v0.3  Part 2 语言基础
+  ↓
+v0.4  Part 3 数据结构   ← 当前
   ↓
  ...  逐 Part 推进
   ↓
