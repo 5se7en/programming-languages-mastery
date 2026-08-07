@@ -1,5 +1,5 @@
 // 第 14 章 · 模块 — C++ 示例
-// 运行：g++ -std=c++17 -o main *.cpp && ./main
+// 运行：g++ -std=c++20 -o main *.cpp && ./main
 // 注意：#include 只是预处理器的「文本粘贴」，不是模块系统。
 //       用 g++ -E main.cpp 可以看到头文件内容被原样插入。
 #include <iostream>

@@ -1,5 +1,5 @@
 // 第 15 章 · 包 — C++ 示例
-// 运行：g++ -std=c++17 -o main *.cpp && ./main
+// 运行：g++ -std=c++20 -o main *.cpp && ./main
 #include <iostream>
 #include <string>
 #include <vector>

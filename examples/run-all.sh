@@ -97,7 +97,7 @@ for topic in $topics; do
   f=$(pick_entry "cpp/$topic" cpp)
   if [ -n "${f:-}" ]; then
     if command -v g++ >/dev/null 2>&1; then
-      if g++ -std=c++17 -I"cpp/$topic" -o "$TMP/cpp.out.bin" "cpp/$topic"/*.cpp > "$TMP/cpp.out" 2>&1; then
+      if g++ -std=c++20 -I"cpp/$topic" -o "$TMP/cpp.out.bin" "cpp/$topic"/*.cpp > "$TMP/cpp.out" 2>&1; then
         run_one "C++" "$TMP/cpp.out" "$TMP/cpp.out.bin"
       else
         report FAIL "C++" "编译失败"; sed 's/^/      | /' "$TMP/cpp.out" | head -15

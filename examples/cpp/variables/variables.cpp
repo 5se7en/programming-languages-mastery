@@ -1,5 +1,5 @@
 // 第 08 章 · 变量 — C++ 示例
-// 运行：g++ -std=c++17 -o variables variables.cpp && ./variables
+// 运行：g++ -std=c++20 -o variables variables.cpp && ./variables
 #include <iostream>
 #include <string>
 

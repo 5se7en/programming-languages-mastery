@@ -1,5 +1,5 @@
 // 第 10 章 · 运算符 — C++ 示例
-// 运行：g++ -std=c++17 -o operators operators.cpp && ./operators
+// 运行：g++ -std=c++20 -o operators operators.cpp && ./operators
 #include <iostream>
 #include <string>
 

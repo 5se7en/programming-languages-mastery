@@ -1,5 +1,5 @@
 // 第 11 章 · 流程控制 — C++ 示例
-// 运行：g++ -std=c++17 -o control-flow control-flow.cpp && ./control-flow
+// 运行：g++ -std=c++20 -o control-flow control-flow.cpp && ./control-flow
 #include <iostream>
 #include <vector>
 #include <string>

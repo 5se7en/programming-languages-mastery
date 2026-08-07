@@ -1,5 +1,5 @@
 // 第 12 章 · 函数 — C++ 示例
-// 运行：g++ -std=c++17 -o functions functions.cpp && ./functions
+// 运行：g++ -std=c++20 -o functions functions.cpp && ./functions
 #include <iostream>
 #include <vector>
 #include <numeric>

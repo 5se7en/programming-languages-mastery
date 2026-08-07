@@ -1,5 +1,5 @@
 // 第 09 章 · 数据类型 — C++ 示例
-// 运行：g++ -std=c++17 -o data-types data-types.cpp && ./data-types
+// 运行：g++ -std=c++20 -o data-types data-types.cpp && ./data-types
 #include <iostream>
 #include <iomanip>
 #include <string>

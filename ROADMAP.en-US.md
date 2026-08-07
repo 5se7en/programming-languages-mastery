@@ -112,14 +112,14 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 23 | Class | Why bind data and behavior together? |
-| 24 | Object | How is an object laid out in memory? |
-| 25 | Encapsulation | Why does hiding implementation details matter? |
-| 26 | Inheritance | What is the cost of reuse and the "is-a" relationship? |
-| 27 | Polymorphism | How do vtables / dynamic dispatch achieve "one interface, different behaviors"? |
-| 28 | Interface | Why do we need contracts rather than implementations? |
-| 29 | Generic | How does parameterizing types balance reuse and safety (template vs generic vs duck typing)? |
-| 30 | Reflection | What is the use — and the danger — of inspecting/manipulating types at runtime? |
+| 23 | [Class](./docs/Part4-OOP/23-class.en-US.md) | Why bind data and behavior together? |
+| 24 | [Object](./docs/Part4-OOP/24-object.en-US.md) | How is an object laid out in memory? |
+| 25 | [Encapsulation](./docs/Part4-OOP/25-encapsulation.en-US.md) | Why does hiding implementation details matter? |
+| 26 | [Inheritance](./docs/Part4-OOP/26-inheritance.en-US.md) | What is the cost of reuse and the "is-a" relationship? |
+| 27 | [Polymorphism](./docs/Part4-OOP/27-polymorphism.en-US.md) | How do vtables / dynamic dispatch achieve "one interface, different behaviors"? |
+| 28 | [Interface](./docs/Part4-OOP/28-interface.en-US.md) | Why do we need contracts rather than implementations? |
+| 29 | [Generic](./docs/Part4-OOP/29-generics.en-US.md) | How does parameterizing types balance reuse and safety (template vs generic vs duck typing)? |
+| 30 | [Reflection](./docs/Part4-OOP/30-reflection.en-US.md) | What is the use — and the danger — of inspecting/manipulating types at runtime? |
 
 ### Part 5 · Runtime (31–38)
 
@@ -221,7 +221,7 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.2 | Part 1 Programming Fundamentals | ✅ Done |
 | v0.3 | Part 2 Language Basics | ✅ Done |
 | v0.4 | Part 3 Data Structures | ✅ Done |
-| v0.5 | Part 4 Object-Oriented Programming | ✍️ In Progress |
+| v0.5 | Part 4 Object-Oriented Programming | ✅ Done |
 | v0.6 | Part 5 Runtime | ⏳ |
 | v0.7 | Part 6 Concurrency | ⏳ |
 | v0.8 | Part 7 Database | ⏳ |

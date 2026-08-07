@@ -1,5 +1,5 @@
 // 第 16 章 · 数组 — C++ 示例
-// 运行：g++ -std=c++17 -O2 -o main *.cpp && ./main
+// 运行：g++ -std=c++20 -O2 -o main *.cpp && ./main
 #include <iostream>
 #include <array>
 #include <vector>

@@ -1,5 +1,5 @@
 // 第 13 章 · 作用域 — C++ 示例
-// 运行：g++ -std=c++17 -o scope scope.cpp && ./scope
+// 运行：g++ -std=c++20 -o scope scope.cpp && ./scope
 #include <iostream>
 #include <string>
 #include <map>

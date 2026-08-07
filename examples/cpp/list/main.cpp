@@ -1,5 +1,5 @@
 // 第 17 章 · 列表 — C++ 示例
-// 运行：g++ -std=c++17 -O2 -o main *.cpp && ./main
+// 运行：g++ -std=c++20 -O2 -o main *.cpp && ./main
 #include <iostream>
 #include <vector>
 #include <deque>
