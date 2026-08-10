@@ -128,14 +128,14 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 31 | Memory | Into what regions is a program's memory divided? |
-| 32 | Stack Memory | How are function calls allocated and reclaimed on the stack? |
-| 33 | Heap Memory | Why do we need the heap? Why is allocation more expensive? |
-| 34 | Pointer | The power and danger of operating on addresses directly? |
-| 35 | Reference | How do references differ from pointers and value semantics? |
-| 36 | Garbage Collection | How does GC reclaim memory automatically? At what cost? |
-| 37 | RAII | How does C++ manage resources via scope? |
-| 38 | Smart Pointer | How to share ownership safely without a GC? |
+| 31 | [Memory](./docs/Part5-Runtime/31-memory.en-US.md) | Into what regions is a program's memory divided? |
+| 32 | [Stack Memory](./docs/Part5-Runtime/32-stack-memory.en-US.md) | How are function calls allocated and reclaimed on the stack? |
+| 33 | [Heap Memory](./docs/Part5-Runtime/33-heap-memory.en-US.md) | Why do we need the heap? Why is allocation more expensive? |
+| 34 | [Pointer](./docs/Part5-Runtime/34-pointers.en-US.md) | The power and danger of operating on addresses directly? |
+| 35 | [Reference](./docs/Part5-Runtime/35-references.en-US.md) | How do references differ from pointers and value semantics? |
+| 36 | [Garbage Collection](./docs/Part5-Runtime/36-garbage-collection.en-US.md) | How does GC reclaim memory automatically? At what cost? |
+| 37 | [RAII](./docs/Part5-Runtime/37-raii.en-US.md) | How does C++ manage resources via scope? |
+| 38 | [Smart Pointer](./docs/Part5-Runtime/38-smart-pointers.en-US.md) | How to share ownership safely without a GC? |
 
 ### Part 6 · Concurrency (39–45)
 
@@ -222,7 +222,7 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.3 | Part 2 Language Basics | ✅ Done |
 | v0.4 | Part 3 Data Structures | ✅ Done |
 | v0.5 | Part 4 Object-Oriented Programming | ✅ Done |
-| v0.6 | Part 5 Runtime | ⏳ |
+| v0.6 | Part 5 Runtime | ✅ Done |
 | v0.7 | Part 6 Concurrency | ⏳ |
 | v0.8 | Part 7 Database | ⏳ |
 | v0.9 | Part 8 Engineering | ⏳ |

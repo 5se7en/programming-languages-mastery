@@ -128,14 +128,14 @@ flowchart LR
 
 | 章 | 标题 | 它回答的核心问题 |
 |:--:|------|------------------|
-| 31 | 内存 | 程序的内存被分成哪几块？ |
-| 32 | 栈内存 | 函数调用如何在栈上分配与回收？ |
-| 33 | 堆内存 | 为什么需要堆？分配为何更贵？ |
-| 34 | 指针 | 直接操作地址的威力与危险？ |
-| 35 | 引用 | 引用与指针、值语义如何区分？ |
-| 36 | 垃圾回收 | GC 如何自动回收内存？代价在哪？ |
-| 37 | RAII | C++ 如何用作用域管理资源？ |
-| 38 | 智能指针 | 无 GC 时如何安全地共享所有权？ |
+| 31 | [内存](./docs/Part5-Runtime/31-memory.md) | 程序的内存被分成哪几块？ |
+| 32 | [栈内存](./docs/Part5-Runtime/32-stack-memory.md) | 函数调用如何在栈上分配与回收？ |
+| 33 | [堆内存](./docs/Part5-Runtime/33-heap-memory.md) | 为什么需要堆？分配为何更贵？ |
+| 34 | [指针](./docs/Part5-Runtime/34-pointers.md) | 直接操作地址的威力与危险？ |
+| 35 | [引用](./docs/Part5-Runtime/35-references.md) | 引用与指针、值语义如何区分？ |
+| 36 | [垃圾回收](./docs/Part5-Runtime/36-garbage-collection.md) | GC 如何自动回收内存？代价在哪？ |
+| 37 | [RAII](./docs/Part5-Runtime/37-raii.md) | C++ 如何用作用域管理资源？ |
+| 38 | [智能指针](./docs/Part5-Runtime/38-smart-pointers.md) | 无 GC 时如何安全地共享所有权？ |
 
 ### Part 6 · 并发（39–45）
 
@@ -222,7 +222,7 @@ flowchart LR
 | v0.3 | Part 2 语言基础 | ✅ 已完成 |
 | v0.4 | Part 3 数据结构 | ✅ 已完成 |
 | v0.5 | Part 4 面向对象 | ✅ 已完成 |
-| v0.6 | Part 5 运行时 | ⏳ |
+| v0.6 | Part 5 运行时 | ✅ 已完成 |
 | v0.7 | Part 6 并发 | ⏳ |
 | v0.8 | Part 7 数据库 | ⏳ |
 | v0.9 | Part 8 工程化 | ⏳ |

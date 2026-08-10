@@ -113,6 +113,7 @@ for topic in $topics; do
       app="$TMP/cs-$topic"
       if dotnet new console -o "$app" > "$TMP/cs.out" 2>&1; then
         cp "$f" "$app/Program.cs"
+        sed -i '' 's|<PropertyGroup>|<PropertyGroup><AllowUnsafeBlocks>true</AllowUnsafeBlocks>|' "$app"/*.csproj
         run_one "C#" "$TMP/cs.out" dotnet run --project "$app"
       else
         report FAIL "C#" "创建项目失败"; sed 's/^/      | /' "$TMP/cs.out" | head -10
