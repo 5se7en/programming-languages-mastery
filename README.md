@@ -8,7 +8,7 @@
 
 ---
 
-`状态：v0.6 · Part 1–5 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
+`状态：v0.7 · Part 1–6 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
 
 > **学习概念 · 对比语言 · 理解原理 · 构建体系**
 
@@ -435,7 +435,7 @@ Programming-Languages-Mastery/
 | Part 3 | 数据结构 | ✅ 已完成 |
 | Part 4 | 面向对象 | ✅ 已完成 |
 | Part 5 | 运行时 | ✅ 已完成 |
-| Part 6 | 并发 | ⏳ 规划中 |
+| Part 6 | 并发 | ✅ 已完成 |
 | Part 7 | 数据库 | ⏳ 规划中 |
 | Part 8 | 工程化 | ⏳ 规划中 |
 
@@ -458,7 +458,9 @@ v0.4  Part 3 数据结构
   ↓
 v0.5  Part 4 面向对象
   ↓
-v0.6  Part 5 运行时   ← 当前
+v0.6  Part 5 运行时
+  ↓
+v0.7  Part 6 并发     ← 当前
   ↓
  ...  逐 Part 推进
   ↓

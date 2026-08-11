@@ -144,13 +144,13 @@ flowchart LR
 
 | 章 | 标题 | 它回答的核心问题 |
 |:--:|------|------------------|
-| 39 | 进程 | 隔离的执行单元为何存在？ |
-| 40 | 线程 | 共享内存的并发带来什么便利与灾难？ |
-| 41 | 锁 | 如何协调对共享数据的访问？ |
-| 42 | 异步 | 不阻塞地等待 I/O 如何做到？ |
-| 43 | 事件循环 | 单线程如何"并发"（JS / Node 模型）？ |
-| 44 | 协程 | 用户态调度为何更轻量？ |
-| 45 | 线程池 | 为什么要复用线程？ |
+| 39 | [进程](./docs/Part6-Concurrency/39-process.md) | 隔离的执行单元为何存在？ |
+| 40 | [线程](./docs/Part6-Concurrency/40-thread.md) | 共享内存的并发带来什么便利与灾难？ |
+| 41 | [锁](./docs/Part6-Concurrency/41-lock.md) | 如何协调对共享数据的访问？ |
+| 42 | [异步](./docs/Part6-Concurrency/42-async.md) | 不阻塞地等待 I/O 如何做到？ |
+| 43 | [事件循环](./docs/Part6-Concurrency/43-event-loop.md) | 单线程如何"并发"（JS / Node 模型）？ |
+| 44 | [协程](./docs/Part6-Concurrency/44-coroutine.md) | 用户态调度为何更轻量？ |
+| 45 | [线程池](./docs/Part6-Concurrency/45-thread-pool.md) | 为什么要复用线程？ |
 
 ### Part 7 · 数据库（46–51）
 
@@ -223,7 +223,7 @@ flowchart LR
 | v0.4 | Part 3 数据结构 | ✅ 已完成 |
 | v0.5 | Part 4 面向对象 | ✅ 已完成 |
 | v0.6 | Part 5 运行时 | ✅ 已完成 |
-| v0.7 | Part 6 并发 | ⏳ |
+| v0.7 | Part 6 并发 | ✅ 已完成 |
 | v0.8 | Part 7 数据库 | ⏳ |
 | v0.9 | Part 8 工程化 | ⏳ |
 | v1.0 | 第一版 · 八个 Part 全部完成 | ⏳ |

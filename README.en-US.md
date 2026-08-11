@@ -8,7 +8,7 @@
 
 ---
 
-`Status: v0.6 · Parts 1–5 complete` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
+`Status: v0.7 · Parts 1–6 complete` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
 
 > **Learn Concepts · Compare Languages · Understand Principles · Build Systems**
 
@@ -433,7 +433,7 @@ The book is maintained as an open-source project with transparent progress:
 | Part 3 | Data Structures | ✅ Done |
 | Part 4 | Object-Oriented Programming | ✅ Done |
 | Part 5 | Runtime | ✅ Done |
-| Part 6 | Concurrency | ⏳ Planned |
+| Part 6 | Concurrency | ✅ Done |
 | Part 7 | Database | ⏳ Planned |
 | Part 8 | Engineering | ⏳ Planned |
 
@@ -456,7 +456,9 @@ v0.4  Part 3 Data Structures
   ↓
 v0.5  Part 4 Object-Oriented Programming
   ↓
-v0.6  Part 5 Runtime   ← current
+v0.6  Part 5 Runtime
+  ↓
+v0.7  Part 6 Concurrency   ← current
   ↓
  ...  advancing Part by Part
   ↓

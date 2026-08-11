@@ -144,13 +144,13 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 39 | Process | Why do isolated units of execution exist? |
-| 40 | Thread | What convenience — and disaster — does shared-memory concurrency bring? |
-| 41 | Lock | How to coordinate access to shared data? |
-| 42 | Async | How to wait for I/O without blocking? |
-| 43 | Event Loop | How does a single thread achieve "concurrency" (the JS / Node model)? |
-| 44 | Coroutine | Why is user-space scheduling more lightweight? |
-| 45 | Thread Pool | Why reuse threads? |
+| 39 | [Process](./docs/Part6-Concurrency/39-process.en-US.md) | Why do isolated units of execution exist? |
+| 40 | [Thread](./docs/Part6-Concurrency/40-thread.en-US.md) | What convenience — and disaster — does shared-memory concurrency bring? |
+| 41 | [Lock](./docs/Part6-Concurrency/41-lock.en-US.md) | How to coordinate access to shared data? |
+| 42 | [Async](./docs/Part6-Concurrency/42-async.en-US.md) | How to wait for I/O without blocking? |
+| 43 | [Event Loop](./docs/Part6-Concurrency/43-event-loop.en-US.md) | How does a single thread achieve "concurrency" (the JS / Node model)? |
+| 44 | [Coroutine](./docs/Part6-Concurrency/44-coroutine.en-US.md) | Why is user-space scheduling more lightweight? |
+| 45 | [Thread Pool](./docs/Part6-Concurrency/45-thread-pool.en-US.md) | Why reuse threads? |
 
 ### Part 7 · Database (46–51)
 
@@ -223,7 +223,7 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.4 | Part 3 Data Structures | ✅ Done |
 | v0.5 | Part 4 Object-Oriented Programming | ✅ Done |
 | v0.6 | Part 5 Runtime | ✅ Done |
-| v0.7 | Part 6 Concurrency | ⏳ |
+| v0.7 | Part 6 Concurrency | ✅ Done |
 | v0.8 | Part 7 Database | ⏳ |
 | v0.9 | Part 8 Engineering | ⏳ |
 | v1.0 | First Edition · all eight Parts complete | ⏳ |
