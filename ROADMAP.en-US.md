@@ -159,12 +159,12 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 46 | Database | Beyond memory and files, why do we still need a database? |
-| 47 | SQL | How does declarative querying express "what you want, not how to get it"? |
-| 48 | Transaction | How does ACID guarantee consistency? |
-| 49 | Index | Why can it speed up queries? At what cost? |
-| 50 | Database Lock | How is correctness ensured under concurrent access? |
-| 51 | ORM | How is the gap between objects and relations bridged? |
+| 46 | [Database](./docs/Part7-Database/46-database.en-US.md) | Beyond memory and files, why do we still need a database? |
+| 47 | [SQL](./docs/Part7-Database/47-sql.en-US.md) | How does declarative querying express "what you want, not how to get it"? |
+| 48 | [Transaction](./docs/Part7-Database/48-transaction.en-US.md) | How does ACID guarantee consistency? |
+| 49 | [Index](./docs/Part7-Database/49-index.en-US.md) | Why can it speed up queries? At what cost? |
+| 50 | [Database Lock](./docs/Part7-Database/50-db-lock.en-US.md) | How is correctness ensured under concurrent access? |
+| 51 | [ORM](./docs/Part7-Database/51-orm.en-US.md) | How is the gap between objects and relations bridged? |
 
 ### Part 8 · Engineering (52–59)
 
@@ -224,7 +224,7 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.5 | Part 4 Object-Oriented Programming | ✅ Done |
 | v0.6 | Part 5 Runtime | ✅ Done |
 | v0.7 | Part 6 Concurrency | ✅ Done |
-| v0.8 | Part 7 Database | ⏳ |
+| v0.8 | Part 7 Database | ✅ Done |
 | v0.9 | Part 8 Engineering | ⏳ |
 | v1.0 | First Edition · all eight Parts complete | ⏳ |
 | v2.0+ | Additional languages (Go / Rust / Kotlin …) | ⏳ |
