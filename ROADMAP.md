@@ -173,14 +173,14 @@ flowchart LR
 
 | 章 | 标题 | 它回答的核心问题 |
 |:--:|------|------------------|
-| 52 | 测试 | 如何证明代码是对的？ |
-| 53 | 包管理 | 依赖地狱如何治理（pip / Maven / NuGet / npm / vcpkg）？ |
-| 54 | 构建工具 | 源码到可运行产物，中间发生了什么？ |
-| 55 | 依赖注入 | 为什么要把依赖"交出去"？ |
-| 56 | 设计模式 | 反复出现的问题有哪些通用解法？ |
-| 57 | 性能优化 | 如何定位与消除瓶颈？ |
-| 58 | 安全 | 常见漏洞从何而来、如何防？ |
-| 59 | 部署 | 代码如何走向生产环境？ |
+| 52 | [测试](./docs/Part8-Engineering/52-testing.md) | 如何证明代码是对的？ |
+| 53 | [包管理](./docs/Part8-Engineering/53-package-manager.md) | 依赖地狱如何治理（pip / Maven / NuGet / npm / vcpkg）？ |
+| 54 | [构建工具](./docs/Part8-Engineering/54-build-tool.md) | 源码到可运行产物，中间发生了什么？ |
+| 55 | [依赖注入](./docs/Part8-Engineering/55-di.md) | 为什么要把依赖"交出去"？ |
+| 56 | [设计模式](./docs/Part8-Engineering/56-design-pattern.md) | 反复出现的问题有哪些通用解法？ |
+| 57 | [性能优化](./docs/Part8-Engineering/57-performance.md) | 如何定位与消除瓶颈？ |
+| 58 | [安全](./docs/Part8-Engineering/58-security.md) | 常见漏洞从何而来、如何防？ |
+| 59 | [部署](./docs/Part8-Engineering/59-deployment.md) | 代码如何走向生产环境？ |
 
 ---
 
@@ -225,8 +225,8 @@ flowchart LR
 | v0.6 | Part 5 运行时 | ✅ 已完成 |
 | v0.7 | Part 6 并发 | ✅ 已完成 |
 | v0.8 | Part 7 数据库 | ✅ 已完成 |
-| v0.9 | Part 8 工程化 | ⏳ |
-| v1.0 | 第一版 · 八个 Part 全部完成 | ⏳ |
+| v0.9 | Part 8 工程化 | ✅ 已完成 |
+| v1.0 | 第一版 · 八个 Part 全部完成 | ✅ 已完成 |
 | v2.0+ | 扩展语言（Go / Rust / Kotlin …） | ⏳ |
 
 > 图例：✍️ 进行中 · ⏳ 计划中 · ✅ 已完成

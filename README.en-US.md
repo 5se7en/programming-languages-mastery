@@ -8,7 +8,7 @@
 
 ---
 
-`Status: v0.8 · Parts 1–7 complete` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
+`Status: v1.0 · All eight Parts complete (59/59 chapters)` &nbsp;•&nbsp; `Languages: JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `License: MIT`
 
 > **Learn Concepts · Compare Languages · Understand Principles · Build Systems**
 
@@ -460,11 +460,11 @@ v0.6  Part 5 Runtime
   ↓
 v0.7  Part 6 Concurrency
   ↓
-v0.8  Part 7 Database   ← current
+v0.8  Part 7 Database
   ↓
- ...  advancing Part by Part
+v0.9  Part 8 Engineering
   ↓
-v1.0  First Edition · all eight Parts complete
+v1.0  First Edition · all eight Parts complete   ← current
   ↓
 v2.0  Additional languages (Go / Rust / Kotlin …)
 ```

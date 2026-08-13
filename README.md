@@ -8,7 +8,7 @@
 
 ---
 
-`状态：v0.8 · Part 1–7 已完成` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
+`状态：v1.0 · 八个 Part 全部完成（59/59 章）` &nbsp;•&nbsp; `覆盖语言：JavaScript / Python / Java / C++ / C# / SQL` &nbsp;•&nbsp; `许可：MIT`
 
 > **学习概念 · 对比语言 · 理解原理 · 构建体系**
 
@@ -462,11 +462,11 @@ v0.6  Part 5 运行时
   ↓
 v0.7  Part 6 并发
   ↓
-v0.8  Part 7 数据库   ← 当前
+v0.8  Part 7 数据库
   ↓
- ...  逐 Part 推进
+v0.9  Part 8 工程化
   ↓
-v1.0  第一版 · 八个 Part 全部完成
+v1.0  第一版 · 八个 Part 全部完成   ← 当前
   ↓
 v2.0  扩展语言（Go / Rust / Kotlin …）
 ```

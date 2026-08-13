@@ -173,14 +173,14 @@ Each Part gives its **goal, prerequisites, and the "core question" of every chap
 
 | Ch | Title | Core Question |
 |:--:|-------|---------------|
-| 52 | Testing | How do you prove code is correct? |
-| 53 | Package Manager | How to tame dependency hell (pip / Maven / NuGet / npm / vcpkg)? |
-| 54 | Build Tool | From source to a runnable artifact, what happens in between? |
-| 55 | Dependency Injection | Why hand your dependencies out? |
-| 56 | Design Pattern | What are the common solutions to recurring problems? |
-| 57 | Performance | How to locate and eliminate bottlenecks? |
-| 58 | Security | Where do common vulnerabilities come from, and how to prevent them? |
-| 59 | Deployment | How does code make it to production? |
+| 52 | [Testing](./docs/Part8-Engineering/52-testing.en-US.md) | How do you prove code is correct? |
+| 53 | [Package Manager](./docs/Part8-Engineering/53-package-manager.en-US.md) | How to tame dependency hell (pip / Maven / NuGet / npm / vcpkg)? |
+| 54 | [Build Tool](./docs/Part8-Engineering/54-build-tool.en-US.md) | From source to a runnable artifact, what happens in between? |
+| 55 | [Dependency Injection](./docs/Part8-Engineering/55-di.en-US.md) | Why hand your dependencies out? |
+| 56 | [Design Pattern](./docs/Part8-Engineering/56-design-pattern.en-US.md) | What are the common solutions to recurring problems? |
+| 57 | [Performance](./docs/Part8-Engineering/57-performance.en-US.md) | How to locate and eliminate bottlenecks? |
+| 58 | [Security](./docs/Part8-Engineering/58-security.en-US.md) | Where do common vulnerabilities come from, and how to prevent them? |
+| 59 | [Deployment](./docs/Part8-Engineering/59-deployment.en-US.md) | How does code make it to production? |
 
 ---
 
@@ -225,8 +225,8 @@ The book advances by Semantic Versioning; each completed Part ships a minor rele
 | v0.6 | Part 5 Runtime | ✅ Done |
 | v0.7 | Part 6 Concurrency | ✅ Done |
 | v0.8 | Part 7 Database | ✅ Done |
-| v0.9 | Part 8 Engineering | ⏳ |
-| v1.0 | First Edition · all eight Parts complete | ⏳ |
+| v0.9 | Part 8 Engineering | ✅ Done |
+| v1.0 | First Edition · all eight Parts complete | ✅ Done |
 | v2.0+ | Additional languages (Go / Rust / Kotlin …) | ⏳ |
 
 > Legend: ✍️ In Progress · ⏳ Planned · ✅ Done
